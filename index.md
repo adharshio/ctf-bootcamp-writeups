@@ -25,6 +25,7 @@ beginner-friendly writeup for each one. New to CTFs? Start with the
 
 ---
 
+
 ### How to use this site
 
 Each challenge page includes:
@@ -34,3 +35,12 @@ Each challenge page includes:
 - The **flag**, revealed at the end, so you can verify your own solve
 
 Pick a challenge above and get started.
+
+
+## Resources
+
+<div style="margin: 30px 0;">
+  <a class="btn-link" href="{{ '/tools/' | relative_url }}">
+    🛠️ Helpful Tools & Platforms →
+  </a>
+</div>
