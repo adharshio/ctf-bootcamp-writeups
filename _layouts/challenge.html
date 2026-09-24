@@ -1,0 +1,28 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <section class="page-header">
+    <h1 class="project-name">{{ page.title }}</h1>
+    <h2 class="project-tagline">
+      <span class="badge">{{ page.category }}</span>
+      <span class="badge badge-diff">{{ page.difficulty }}</span>
+    </h2>
+    <a href="{{ '/' | relative_url }}" class="btn">← All Challenges</a>
+  </section>
+
+  <section class="main-content">
+    {{ content }}
+
+    <hr>
+    <p><a href="{{ '/' | relative_url }}">← Back to all challenges</a></p>
+  </section>
+</body>
+</html>

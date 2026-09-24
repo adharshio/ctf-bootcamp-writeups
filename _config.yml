@@ -1,0 +1,28 @@
+title: FOSS CTF Bootcamp
+description: Beginner-friendly CTF challenges and writeups, built for our campus CTF bootcamp.
+theme: jekyll-theme-cayman
+
+# Used by the Cayman theme for the header banner
+show_downloads: false
+
+# Simple site-wide nav data used by index.md
+challenges:
+  - title: "Wiki Backup Leak"
+    category: "Network Forensics"
+    difficulty: "Beginner"
+    summary: "Find a flag split across an HTTP request header and response body inside a packet capture."
+    link: /challenges/wiki-backup-leak/
+  - title: "Challenge 2 Title"
+    category: "Category"
+    difficulty: "Beginner"
+    summary: "One-line description of challenge 2 goes here."
+    link: /challenges/challenge-2/
+  - title: "Challenge 3 Title"
+    category: "Category"
+    difficulty: "Beginner"
+    summary: "One-line description of challenge 3 goes here."
+    link: /challenges/challenge-3/
+
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
