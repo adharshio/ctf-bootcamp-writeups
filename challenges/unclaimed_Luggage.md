@@ -1,4 +1,4 @@
----
+--- 
 layout: challenge
 title: "Unclaimed Luggage"
 category: "Forensics & OSINT"
@@ -7,6 +7,8 @@ permalink: /challenges/unclaimed-luggage/
 ---
 
 ## The Challenge
+
+**Files:** [`suitcase.jpg`]({{ '/assets/files/suitcase.jpg' | relative_url }})
 
 A suspicious black suitcase was spotted abandoned near a tea shop. Naturally, instead of opening it like normal people, our intel team took a picture of it and ran away.
 
