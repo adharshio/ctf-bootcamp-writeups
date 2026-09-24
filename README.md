@@ -1,7 +1,6 @@
 # FOSS CTF Bootcamp — Challenges & Writeups Site
 
-A GitHub Pages site listing CTF challenges with beginner-friendly writeups,
-built with Jekyll and the **Cayman** theme.
+A GitHub Pages site listing CTF challenges with beginner-friendly writeups.
 
 ## Structure
 
@@ -46,7 +45,7 @@ built with Jekyll and the **Cayman** theme.
 5. Drop any downloadable file (pcap, zip, etc.) into `assets/files/` and
    link it from the challenge page:
    ```markdown
-   [Download the pcap]({{ '/assets/files/yourfile.pcap' | relative_url }})
+   [Download the pcap]({{ '/assets/files/traffic.pcap' | relative_url }})
    ```
 
 ## Publishing on GitHub Pages

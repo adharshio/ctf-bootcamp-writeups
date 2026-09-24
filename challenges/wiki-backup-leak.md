@@ -8,7 +8,7 @@ permalink: /challenges/wiki-backup-leak/
 
 ## The Challenge
 
-**Files:** [`ctf_beginner_challenge.pcap`]({{ '/assets/files/ctf_beginner_challenge.pcap' | relative_url }})
+**Files:** [`traffic.pcap`]({{ '/assets/files/traffic.pcap' | relative_url }})
 
 We're given a single file — a recording of network traffic. Our job is to
 open it, read through the traffic, and find a hidden flag in the format

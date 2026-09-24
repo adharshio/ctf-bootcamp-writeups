@@ -1,0 +1,12 @@
+# Jekyll generated files
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Bundler
+.bundle/
+
+# OS/editor files
+.DS_Store
+*.swp
+*.swo

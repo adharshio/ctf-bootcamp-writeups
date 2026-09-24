@@ -5,6 +5,8 @@ theme: jekyll-theme-cayman
 # Used by the Cayman theme for the header banner
 show_downloads: false
 
+repository: "adharshio/ctf-bootcamp-writeups"
+
 # Simple site-wide nav data used by index.md
 challenges:
   - title: "Wiki Backup Leak"
@@ -12,16 +14,18 @@ challenges:
     difficulty: "Beginner"
     summary: "Find a flag split across an HTTP request header and response body inside a packet capture."
     link: /challenges/wiki-backup-leak/
-  - title: "Challenge 2 Title"
-    category: "Category"
+  - title: "Perfect Picture Secret"
+    category: "Cryptography"
     difficulty: "Beginner"
-    summary: "One-line description of challenge 2 goes here."
-    link: /challenges/challenge-2/
-  - title: "Challenge 3 Title"
-    category: "Category"
+    summary: "We intercepted a scrambled transmission and an image file (challenge.png) from an unencrypted channel.
+      Decode the message, and retrieve the flag!
+      Ciphertext:c2drdXRhM3l1MGUzX3YwX2owNTVfYTU1dTN9"
+    link: /challenges/picture-perfect-secret/
+  - title: "Unclaimed Luggage"
+    category: "Forensics & OSINT"
     difficulty: "Beginner"
-    summary: "One-line description of challenge 3 goes here."
-    link: /challenges/challenge-3/
+    summary: "A suspicious black suitcase was spotted abandoned near a tea shop. Naturally, instead of opening it like normal people, our intel team took a picture of it and ran away."
+    link: /challenges/unclaimed-luggage/
 
 markdown: kramdown
 plugins:
